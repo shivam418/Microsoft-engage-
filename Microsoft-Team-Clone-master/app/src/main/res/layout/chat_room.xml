@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFD2F4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="535dp"
+        android:layout_alignParentEnd="true"
+        android:padding="18sp"
+        android:paddingStart="18sp"
+        android:paddingLeft="18sp"
+        android:paddingTop="18sp"
+        android:paddingEnd="18sp"
+        android:paddingRight="18sp"
+        android:paddingBottom="18sp"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/msgPlainText"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2sp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="61dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/addRoomButton"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="60dp"
+        android:background="#B35B5B"
+        android:text="Send" />
+
+</RelativeLayout>
